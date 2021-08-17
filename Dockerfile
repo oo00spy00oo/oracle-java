@@ -9,4 +9,4 @@ RUN apt update && apt install software-properties-common -y
 RUN add-apt-repository ppa:linuxuprising/java
 RUN apt update
 RUN yes | apt install oracle-java11-installer-local -y
-RUN apt install oracle-java11-set-default-loca
+RUN apt install oracle-java11-set-default-local
